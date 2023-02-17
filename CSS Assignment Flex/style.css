@@ -1,0 +1,129 @@
+.boxcontainer{
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+}
+.box{
+    background-color: rgb(183, 211, 84);
+    padding: 1rem;
+    margin: 1rem;
+    color: black;
+    width: 3rem;
+    height: 3rem;
+
+}
+
+/* flex Direction */
+#row {
+    flex-direction: row;
+}
+
+#column {
+    flex-direction: column;
+}
+
+#rowreverse{
+    flex-direction: row-reverse;
+}
+
+#columnreverse {
+    flex-direction: column-reverse;
+}
+
+/* for rows */
+/* justify-content: space-around; */
+
+#boxes1 {
+    justify-content: space-around;
+}
+
+#boxes2 {
+    justify-content: space-evenly; 
+}
+
+#boxes3 {
+    justify-content: space-between; 
+}
+
+#boxes4 {
+    justify-content: center; 
+}
+
+
+/* for Columns */
+#boxes5 {
+    height: 80vh;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+
+#boxes6 {
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+
+#boxes7 {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+}
+
+#boxes8 {
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
+/* align items with direction row */
+#boxes9 {
+    align-items: flex-start;
+    height: 60vh;
+}
+
+#boxes10 {
+    
+    align-items: center;
+    height: 60vh;
+}
+
+#boxes11 {
+    
+    align-items: flex-end;
+    height: 60vh;
+}
+
+/* align items with direction column */
+
+#boxes12 {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 60vh;
+}
+
+#boxes13 {
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+}
+
+#boxes14 {
+    flex-direction: column;
+    align-items: flex-end;
+    height: 60vh;
+}
+
+/* For Order Property (flex items) */
+
+#box1 {
+    order: 3;
+}
+
+#box2 {
+    order: 2;
+}
+
+#box3 {
+    order: 1;
+}

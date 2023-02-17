@@ -1,0 +1,40 @@
+.container {
+    color:aliceblue;
+    background-color: black;
+    padding: 1rem;
+    margin: 1rem;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 47% 25% 25%;
+    gap: 1rem;
+    }
+
+.box {
+    /* width: 8rem;
+    height: 8rem; */
+    font-size: 24px;
+    /* margin: 1rem; */
+    padding: 1rem;
+    background-color: rgb(3, 104, 117);
+}
+
+#box10 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+#box6 {
+   grid-column: 3/3;
+    grid-row: 1/7;
+}
+
+#box8 {
+    grid-column: 1/4;
+}
+
+#box9 {
+    grid-column: 1/4;
+}

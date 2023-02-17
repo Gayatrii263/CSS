@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(15, 15, 15);
+}
+
+.box{
+    background-color: rgb(29, 29, 29);
+    /* height: 100vh; */
+    /* width: 100vw; */
+    /* width: 60vw; */
+    min-width: 600px;
+    max-width: 60%;
+    margin: auto;
+}
+
+.box img{
+    width: 100%;
+    height:80%vh;
+}
+p::-webkit-scrollbar{
+    display: none;
+    text-align: justify;
+}
+
+p{
+    color: white;
+    border: 1px solid white;
+    min-height: 100px;
+    max-height: 180px;
+    overflow: scroll;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+    
+}
+h1{
+    background-color: blueviolet;
+    color:aliceblue;
+    display: block;
+    position: fixed;
+    z-index: 12;
+    top: 2rem;
+    left: 17rem;
+}
+a{
+    color:aliceblue;
+}
+
+.link1{
+    color: black;
+    background-color:  rgb(238, 255, 82);
+    height: 10rem;
+    width: 20rem;
+    display: block;
+}
+
+
+.link2{
+    background-color: blueviolet;
+    height: 5rem;
+    width: 20rem;
+    display: block;
+}
+
+.link3{
+    color: black;
+    background-color: rgb(238, 255, 82);
+    height: 5rem;
+    width: 20rem;
+    display: inline-block;
+    
+}
+
+.link4{
+    background-color: blueviolet;
+    height: 5rem;
+    width: 20rem;
+    display: none;
+}
+
+.container{
+    background-color: yellow;
+    padding: 1rem;
+    margin: 1rem;
+    }
+.container button{
+    display: block;
+    background-color: blueviolet;
+    color: wheat;
+    border-radius: 8Px;
+    padding: 8px;
+    border: none; 
+}
+button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.relative{
+    position: relative;
+    bottom: -0.1rem;
+    left: 74rem;
+    
+}
+
+#container2{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    right: 2rem;
+    top: 0.5rem;
+    /* bottom: 2 rem; */
+}
+
+marquee{
+background-color: blueviolet;
+  color:aliceblue;
+  Padding: 1rem;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+
+}

@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./Images/Flipkart.png);
+}
+
+
+.maincontainer{
+    /* background-color: skyblue; */
+    width: 50vw;
+    height: 82vh;
+    display: flex;
+}
+
+.left{
+    width: 40%;
+    background-color: #2874f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem;
+    
+}
+
+.text-container {
+    /* font-size: 18px; */
+    color: white;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* letter-spacing: 1px; */
+
+}
+
+.text-container > p {
+
+    color: #DBDBDB;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+.text-container > h2 {
+
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
+.right { 
+    width: 60%;
+    padding: 1rem 1.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    /* border: 2px solid black; */
+   
+}
+
+form {
+    /* background-color: red; */
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.input-container > input {
+    
+    font-size: 16px;
+    padding: 1rem 0rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #9c9c9c;
+
+    }
+
+.input-container > a {
+  
+    
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    left: 18.8rem;
+    bottom: 3.3rem;
+
+}
+.para {
+
+    font-size: 12px;
+    height: 4rem;
+}
+
+.button {
+    /* background-color: #9c9c9c; */
+    Height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button > input{
+    background-color: #9c9c9c;
+    padding: 1rem;
+    width: 100%;
+    border:none;
+    outline: none;
+}
+
+.button >input:nth-child(1){
+    background-color: #FB641B;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button > p{
+    text-align: center;
+}
+
+.button > input:nth-child(3) {
+    
+    background-color: white;
+    color: #2874f0;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+}
+a {
+    color:#2874f0;
+    font-size: 12px;
+}

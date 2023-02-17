@@ -1,0 +1,101 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./Images/BG.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    color: #8c8c8c
+}
+
+.netflixlogo{
+    width: 10rem;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+
+}
+
+#formcontainer{
+    background-color: rgba(0, 0, 0, 0.76);
+    height: 600px;
+    width: 460px;
+    padding: 4rem;
+    font-family: Helvetica,Arial,sans-serif;
+    display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+
+
+}
+
+#formcontainer > h1 {
+    color: white;
+}
+
+#inputcontainer{
+    /* background-color: red; */
+    height: 52%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pass{
+    margin-bottom: 1rem;
+}
+
+#inputcontainer > input{
+    padding: 1rem;
+    border: none;
+    outline: none;
+    font-weight: 16px ;
+    border-radius: 6px;
+    background-color: #333333;
+    font-size: 16px;
+    color: #8c8c8c;
+}
+
+
+input[type="submit"] {
+
+     background-color: #e50914 !important;
+     color: white !important;
+     font-weight: bolder;
+     font-size: 16px;
+     cursor: pointer;
+        
+    }
+
+    #formrow{
+        /* background-color: green; */
+        display: flex;
+        justify-content: space-between;
+    }
+    input[type="checkbox"]{
+        background-color: #737373;
+        accent-color: #8c8c8c;
+        color:#8c8c8c;
+        border-color: #8c8c8c;
+    }
+
+    a{
+        text-decoration: none;
+        color: #8c8c8c;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+
+    #footer {
+        height: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+   
